@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Program - By Suraj Arya</title>
+    <link rel="stylesheet" href="diceRoller.css">
+</head>
+<body>
+    <h1 id="heading">Dice Roller v1.0</h1>
+    <div id="diceSection">
+        <div id="inputDiv">
+        <label for="diceCount" id="dices">Number of Dices: </label>
+        <input type="number" id="textBox" name='diceCount' min="1" value="1">
+        </div> <br>
+        <button id="rollBtn" onclick="roll()">Roll</button><br>
+        <p id="diceNumber"></p><br>
+        <p id="diceImage"></p>
+    </div>
+    <script src="diceRoller.js"></script>
+</body>
+</html>
